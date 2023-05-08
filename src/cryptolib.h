@@ -16,8 +16,8 @@ using namespace std;
 using namespace CryptoPP;
 
 void GenerateRSAKeyPair(int keyLength, string &privateKey, string &publicKey);
-string EncryptAES_CBC(const string &plainText, const SecByteBlock &key, const byte *iv);
-string DecryptAES_CBC(const string &cipherText, const SecByteBlock &key, const byte *iv);
+string EncryptAES_CBC(const string &plainText, const SecByteBlock &key, const CryptoPP::byte *iv);
+string DecryptAES_CBC(const string &cipherText, const SecByteBlock &key, const CryptoPP::byte *iv);
 void DiffieHellmanKeyExchange(AutoSeededRandomPool &rng, SecByteBlock &sharedKey);
 string GenerateSHA256Hash(const string &message);
 
