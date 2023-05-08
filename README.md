@@ -1,5 +1,6 @@
 # HybriCrypt
 An app that provides essential cryptographic funcionality.
+----------------------------------------------------------------------------------
 ![image](https://user-images.githubusercontent.com/109701506/236835288-656995ac-930c-4b21-b8da-8522c2af8369.png)
 --------------------------------------------------------------------------------------------------
 **Key Feauters:**
